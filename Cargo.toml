@@ -1,0 +1,20 @@
+[package]
+  name = "lase"
+  version = "0.0.1"
+  authors = [ "Brandon Thomas <bt@brand.io>", "Brandon Thomas <echelon@gmail.com>" ]
+  description = "A laser projector DAC library."
+  keywords = [ "laser", "projector", "DAC", "hardware" ]
+  license = "BSD-4-Clause"
+  readme = "README.md"
+  repository = "https://github.com/echelon/lase.rs"
+  documentation = "https://docs.rs/lase"
+
+[lib]
+  name = "lase"
+  path = "src/lib.rs"
+
+[dependencies]
+  etherdream = "0.0.7"
+
+[badges]
+  travis-ci = { repository = "echelon/lase.rs" }
