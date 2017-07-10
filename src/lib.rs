@@ -14,6 +14,8 @@ extern crate etherdream;
 mod dac;
 mod error;
 
+pub mod tools;
+
 pub use dac::Dac;
 pub use error::LaseError;
 pub use etherdream::protocol::Point; // TODO: Move this into the 'lasers' lib.
