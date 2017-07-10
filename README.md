@@ -1,5 +1,5 @@
-lase_.rs_
-=========
+LASE.rs
+=======
 Lase is a Rust library for multi-DAC laser projection. 
 
 Lase only supports the Etherdream DAC for now (via 
