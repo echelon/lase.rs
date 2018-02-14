@@ -14,7 +14,8 @@
   path = "src/lib.rs"
 
 [dependencies]
-  etherdream = "0.0.7"
+  etherdream = "0.1.*"
+  point = "0.3.*"
 
 [badges]
   travis-ci = { repository = "echelon/lase.rs" }

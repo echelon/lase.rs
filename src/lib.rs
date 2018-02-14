@@ -10,6 +10,7 @@
 #![deny(unused_qualifications)]
 
 extern crate etherdream;
+extern crate point as pointlib;
 
 mod dac;
 mod error;
@@ -18,4 +19,12 @@ pub mod tools;
 
 pub use dac::Dac;
 pub use error::LaseError;
-pub use etherdream::protocol::Point; // TODO: Move this into the 'lasers' lib.
+
+#[deprecated]
+pub use etherdream::protocol::Point;
+
+/// Module for common point types.
+pub mod point {
+  pub use pointlib::PipelinePoint;
+  pub use pointlib::SimplePoint;
+}
